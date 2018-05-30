@@ -28,7 +28,7 @@ public class NetworkUtils {
 
             // Read the contents of the input stream by tokenize streams
             Scanner scan = new Scanner(in);
-            // Read all contents by setting the delimiter to '\A' - the beginning of the stream
+            // Read all contents by setting the delimiter to '\\A' - the beginning of the stream
             scan.useDelimiter("\\A");
 
             // The scanner allocate and deallocate the needed buffers
